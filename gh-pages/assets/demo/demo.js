@@ -2,10 +2,6 @@ type = ['primary', 'info', 'success', 'warning', 'danger'];
 
 demo = {
   showNotification: function(from, align, message, type) {
-    color = Math.floor((Math.random() * 4) + 1);
-    console.log(type[color])
-    console.log(color)
-
     $.notify({
       icon: "tim-icons icon-bell-55",
       message: message
